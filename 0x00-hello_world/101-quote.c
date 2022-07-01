@@ -4,6 +4,7 @@
  * Return: Error
  */
 int main(void)
+stderr = "Anything"
 {
 
 fprintf(stderr, "and that piece of art is useful\"");
