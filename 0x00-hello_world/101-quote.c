@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define stderr Anything
 /**
  * main - Execution starts
  * Return: Error
