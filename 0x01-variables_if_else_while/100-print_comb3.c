@@ -6,7 +6,7 @@
 int main(void)
 {
 int num;
-int ch;
+int num2;
 for (num = 0; num <= 98; num++)
 	for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
