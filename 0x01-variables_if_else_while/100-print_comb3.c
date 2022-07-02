@@ -12,7 +12,7 @@ for (num1 = 0; num1 < 98; num1++)
 		{
 		putchar((num1 % 10) + '0');
 		putchar((num2 % 10) + '0');
-		if (num2 == 98 && num2 == 98)
+		if (num1 == 98 && num2 == 98)
 			continue;
 		putchar(',');
 		putchar(' ');
