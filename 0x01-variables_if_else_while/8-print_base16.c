@@ -7,7 +7,7 @@ int main(void)
 {
 int ch;
 int sh;
-for (ch = 1; ch <= 9; ch++)
+for (ch = 0; ch <= 9; ch++)
 	{
 	putchar((ch % 10) + '0');
 	}
