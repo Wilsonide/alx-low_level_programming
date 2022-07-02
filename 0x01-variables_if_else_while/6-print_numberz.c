@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int vi
+int vi;
 for (vi = 0; vi < 10; vi++)
 	{
 	putchar(vi);
