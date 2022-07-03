@@ -22,6 +22,6 @@ for (num1 = 0; num1 <= 98; num1++)
 		putchar(' ');
 		}
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
