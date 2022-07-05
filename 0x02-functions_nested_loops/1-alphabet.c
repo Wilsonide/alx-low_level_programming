@@ -4,6 +4,7 @@
  */
 void print_alphabet(void)
 {
+int _putchar(char);
 char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
