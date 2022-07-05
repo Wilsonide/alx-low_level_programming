@@ -4,9 +4,9 @@
  */
 void print_alphabet_x10(void)
 {
-int n;
-char lr
-while (n = 9)
+int n = 1;
+char lr;
+while (n < 11)
 	{
 	for (lr = 'a'; lr <= 'z'; lr++)
 		{
