@@ -6,5 +6,10 @@
  */
 int print_last_digit(int r)
 {
-return ((r % 10) + '0');
+int n = r % 10;
+if (n < 0)
+	{
+	n = (-1 * n);
+	}
+return (n + '0');
 }
