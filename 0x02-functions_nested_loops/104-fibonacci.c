@@ -3,12 +3,12 @@
  * main - Entry point
  * Return: All success
  */
-unsigned int main(void)
+int main(void)
 {
-int i;
-int num1 = 1;
-int num2 = 2;
-int num3;
+unsigned int i;
+unsigned int num1 = 1;
+unsigned int num2 = 2;
+unsigned int num3;
 printf("%d", num1);
 putchar(',');
 putchar(' ');
