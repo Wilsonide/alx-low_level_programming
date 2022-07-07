@@ -1,2 +1,2 @@
 #include <stdio.h>
-int postitive_or_negative(int n);
+void postitive_or_negative(int n);
