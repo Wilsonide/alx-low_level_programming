@@ -10,10 +10,10 @@ int num1 = 1;
 int num2 = 2;
 int num3;
 int c;
-printf("%d", a);
+printf("%d", num1);
 putchar(',');
 putchar(' ');
-printf("%d", b);
+printf("%d", num2);
 putchar(',');
 putchar(' ');
 for (i = 3; i <= 98; i++)
