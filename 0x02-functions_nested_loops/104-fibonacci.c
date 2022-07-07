@@ -9,7 +9,6 @@ int i;
 int num1 = 1;
 int num2 = 2;
 int num3;
-int c;
 printf("%d", num1);
 putchar(',');
 putchar(' ');
@@ -18,7 +17,7 @@ putchar(',');
 putchar(' ');
 for (i = 3; i <= 98; i++)
 	{
-	num3 = a + b;
+	num3 = num1 + num2;
 	printf("%d", num3);
 	putchar(',');
 	putchar(' ');
