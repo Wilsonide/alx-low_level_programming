@@ -23,6 +23,8 @@ for (i = 3; i <= 98; i++)
 	putchar(' ');
 	num1 = num2;
 	num2 = num3;
+	if (i < 0)
+		break;
 	}
 printf("\n");
 return (0);
