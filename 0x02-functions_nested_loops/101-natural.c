@@ -15,5 +15,6 @@ for (i = 0; i <= 1024; i++)
 		}
 	}
 printf("%d", sum);
+printf('\n');
 return (0);
 }
