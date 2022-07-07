@@ -3,7 +3,7 @@
  * main - Entry point
  * Return: All success
  */
-int main(void)
+unsigned int main(void)
 {
 int i;
 int num1 = 1;
