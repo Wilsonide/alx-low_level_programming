@@ -6,8 +6,9 @@
 int main(void)
 {
 int i;
-int a = 1;
-int b = 2;
+int num1 = 1;
+int num2 = 2;
+int num3;
 int c;
 printf("%d", a);
 putchar(',');
@@ -17,12 +18,12 @@ putchar(',');
 putchar(' ');
 for (i = 3; i <= 98; i++)
 	{
-	c = a + b;
-	printf("%d", c);
+	num3 = a + b;
+	printf("%d", num3);
 	putchar(',');
 	putchar(' ');
-	a = b;
-	b = c;
+	num1 = num2;
+	num2 = num3;
 	}
 printf("\n");
 return (0);
