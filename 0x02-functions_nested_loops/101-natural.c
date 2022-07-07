@@ -13,7 +13,7 @@ for (i = 0; i <= 1024; i++)
 		{
 		sum = sum + i;
 		}
-	printf("%d", sum);
 	}
+printf("%d", sum);
 return (0);
 }
