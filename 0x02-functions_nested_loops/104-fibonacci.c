@@ -15,16 +15,14 @@ putchar(' ');
 printf("%d", num2);
 putchar(',');
 putchar(' ');
-for (i = 3; i <= 98; i++)
+for (i = 3; i <= 988888888; i++)
 	{
 	num3 = num1 + num2;
-	printf("%d", num3);
+	printf("%u", num3);
 	putchar(',');
 	putchar(' ');
 	num1 = num2;
 	num2 = num3;
-	if (i == 0)
-		break;
 	}
 printf("\n");
 return (0);
