@@ -18,7 +18,7 @@ putchar(' ');
 for (i = 3; i <= 988888888; i++)
 	{
 	num3 = num1 + num2;
-	printf("%d", num3);
+	printf("%u", num3);
 	putchar(',');
 	putchar(' ');
 	num1 = num2;
