@@ -6,7 +6,5 @@
  */
 void reset_to_98(int *n)
 {
-int n = 0;
-int *n = &n;
 *n = 98;
 }
