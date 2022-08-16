@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include "lists.h"
 #include <stdlib.h>
-/*
+/**
  * print_listint - name of function
  * @h: pointer to the list elements
+ *
+ * description: function print_listint accepts @h and
+ * returns a counter
  * Return:number of element in list
  */
 size_t print_listint(const listint_t *h)
